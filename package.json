@@ -5,12 +5,12 @@
 	"main": "videorecorder.js",
 	"nativescript": {
 		"platforms": {
-			"android": "1.5.0",
-			"ios": "1.5.0"
+			"android": "2.4.1",
+			"ios": "2.4.1"
 		}
 	},
 	"dependencies": {
-		"nativescript-permissions": "latest"
+		"nativescript-permissions": "https://github.com/mobilemindtec/nativescript-permissions.git"
 	},
 	"scripts": {
 		"build": "tsc",

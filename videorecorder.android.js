@@ -42,7 +42,7 @@ var VideoRecorder = (function () {
                         intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, android.net.Uri.fromFile(file));
                         
                     }else {                                    
-                        var sdkVersionInt = parseInt(platform.device.sdkVersion);
+                        var sdkVersionInt = parseInt(platform.Device.sdkVersion);
                         if (sdkVersionInt > 21) {
                             
                             var path = android.os.Environment.getExternalStoragePublicDirectory(android.os.Environment.DIRECTORY_DCIM).getAbsolutePath() + "/Camera/" + fileName;
